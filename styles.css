@@ -1,0 +1,113 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+    --font-principal:"Inter", serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--grey-900);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-principal);
+    position: relative;
+}
+
+.container {
+    background-color: var(--grey-800);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1.4rem 0.8rem 1.4rem;
+    border-radius: 10px;
+}
+
+.container_user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.foto_user {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.nome_user {
+    color: var(--white);
+    font-size: 1.25rem;
+    margin-bottom: 0.4rem;
+}
+
+.localizacao_user{
+    color: var(--green);
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.descricao_user {
+    color: var(--white);
+    font-size: 0.688rem;
+    padding: 0 0.5rem;
+}
+
+.lista_container {
+    width: 100%;
+}
+
+.lista_item {
+    list-style: none;
+    color: var(--white);
+    font-size: 0.75rem;
+    font-weight: 700;
+    background-color: var(--grey-700);
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+    text-align: center;
+    padding: 0.7rem 5rem;
+}
+
+.lista_item:hover{
+    background-color: var(--green);
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute; 
+    bottom: 0;
+    text-align: center; 
+    color: var(--green);
+}
+
+.footer_container {
+    width: 15rem;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+@media (min-width: 768px){
+    .footer_container {
+        width: 100vw;
+    } 
+}
