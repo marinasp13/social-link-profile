@@ -20,7 +20,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [https://github.com/marinasp13/social-link-profile](https://github.com/marinasp13/social-link-profile)
-- Live Site URL: []()
+- Live Site URL: [https://marinasp13.github.io/social-link-profile/](https://marinasp13.github.io/social-link-profile/)
 
 ## My process
 
